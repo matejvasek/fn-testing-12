@@ -1,0 +1,12 @@
+# $schema: https://raw.githubusercontent.com/knative/func/main/schema/func_yaml-schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/knative/func/main/schema/func_yaml-schema.json
+specVersion: 0.36.0
+name: fn-testing-12
+runtime: node
+registry: image-registry.openshift-image-registry.svc:5000/admin-playground
+namespace: admin-playground
+created: 2026-08-06T22:05:23.80370564Z
+run:
+  envs:
+  - name: A
+    value: "42"
